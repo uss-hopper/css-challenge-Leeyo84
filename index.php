@@ -9,13 +9,14 @@
 
 		<title>CSS Mockup Activity</title>
 	</head>
+
 	<body class="sfooter">
 		<div class="sfooter-content">
 
 			<!-- HEADER -->
 			<header>
 				<div class="container">
-					<h1>Dylan McDonald:~$</h1>
+					<h1 >Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
 			</header>
@@ -25,7 +26,7 @@
 				<div class="container">
 
 					<!-- WELCOME IMAGE -->
-					<img src="images/welcome.gif" alt="welcome to my homepage">
+					<img class="welcomeImage" src="images/welcome.gif" alt="welcome to my homepage">
 
 					<div class="instructions-wrapper">
 						<div class="instructions-content">

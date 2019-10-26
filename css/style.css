@@ -6,8 +6,54 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
+
 	margin: 0;
 	box-sizing: border-box;
+}
+
+header {
+	background-color: #333333;
+	display: inline-flex;
+	font-family: ocr-a-std,monospace;
+	font-style: normal;
+	font-weight:400;
+	color: #00ff00;
+	border-bottom: 1px solid #000;
+}
+
+.container > h1, em {
+	display: inline-flex;
+	vertical-align: top;
+	margin-left: 5em;
+}
+
+.container > em {
+	margin-top: 2em;
+}
+
+
+section {
+	background-color: white;
+	align-content: center;
+
+}
+
+div > instructions-wrapper 	{
+	border: black;
+}
+
+.about-me {
+	background-color: blue;
+	align-content: center;
+}
+
+.form-wrapper {
+	margin: 50px;
+	background-color: darkgreen;
+}
+
+.instructions-wrapper {
+	border: black;
 }
 
 .container {
@@ -61,6 +107,7 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
 
 
 
