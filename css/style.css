@@ -10,169 +10,14 @@ html, body {
 	box-sizing: border-box;
 }
 
-
-header {
-	background-color: #333333;
-	font-weight:400;
-	color: #00ff00;
-	border-bottom: 1px solid #000;
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
 }
 
-
-	.container > h1, em {
-	display: inline-flex;
-	vertical-align: top;
-	horiz-align: center;
+.clearfix {
+	clear: both;
 }
-
-	.container > h1 {
-		font-size: 50px;
-	}
-
-	.container > em {
-	font-size: large;
-	margin-left: 4em;
-	margin-top: 4em;
-}
-
-
-/*section {*/
-/*	align-content: center;*/
-/*	margin: 0;*/
-/*	padding: 3em ;*/
-/*	background-color: white;*/
-/*}*/
-
-/*div.instructions-wrapper {*/
-/*	border: solid 5px black;*/
-/*	padding: 2em;*/
-/*}*/
-
-/*div.instructions-content {*/
-/*	display: inline-block;*/
-/*	padding: 3em;*/
-/*	float: left;*/
-/*}*/
-
-/*div.instructions-wrapper > img {*/
-/*	width: 25%;*/
-/*}*/
-
-
-
-/*instructions section*/
-/*section {*/
-/*	background-color: white;*/
-/*	align-content: center;*/
-/*}*/
-
-
-/*div.instructions-wrapper {*/
-/*	border: solid 5px black;*/
-
-/*}*/
-
-/*div.instructions-content {*/
-/*	font-size: large;*/
-/*	font-family: monospace;*/
-/*	width: 50%;*/
-/*	margin-left: 2em;*/
-/*	margin-top: 2em;*/
-/*}*/
-
-
-/*.instructions-wrapper > img {*/
-/*	padding: 2em;*/
-/*	width: 25%;*/
-/*	height: auto;*/
-/*	display: inline-block;*/
-/*}*/
-
-/*.instructions-wrapper {*/
-/*	display: flex;*/
-/*	flex-direction: row;*/
-/*	border-width: 2px;*/
-/*	flex-basis: 50%;*/
-/*}*/
-/*.instructions-content {*/
-/*	flex-basis: 75%;*/
-/*}*/
-
-
-/*captiain Kirk*/
-
-/*section.about-me {*/
-/*	background-color: blue;*/
-/*	padding: 2em;*/
-/*}*/
-
-/*section.about-me > div.container > img {*/
-/*	margin-bottom: 2em;*/
-/*	margin-right: 2em;*/
-/*	border: white solid 3px;*/
-/*	width: 22em;*/
-/*	height: auto;*/
-/*	float: left;*/
-/*	}*/
-
-/*section.about-me > div.container {*/
-/*	font-size: large;*/
-/*	color: white;*/
-/*	font-family: monospace;*/
-/*}*/
-
-/*span {*/
-/*	font-weight: bold;*/
-/*	color: #FCF515;*/
-
-/*}*/
-
-/*!*skills section*!*/
-
-/*.container {*/
-/*	margin: 0 auto;*/
-/*	padding: 0 2rem;*/
-/*}*/
-
-/*.clearfix {*/
-/*	clear: both;*/
-/*}*/
-
-/*table {*/
-/*	table-layout: fixed;*/
-/*	width: 100%;*/
-/*	text-align: left;*/
-/*	background-color: #333333;*/
-/*	border-collapse: collapse;*/
-/*}*/
-
-/*div.container > h2 {*/
-/*	font-family: monospace;*/
-/*	float: right;*/
-/*	font-size: xx-large;*/
-/*}*/
-
-/*th, td {*/
-/*	padding: 10px;*/
-/*	font-family: monospace;*/
-/*	color: #00ff00;*/
-/*	font-size: x-large;*/
-/*}*/
-
-
-/*table th, td {*/
-/*	border: 3px solid white;*/
-/*}*/
-
-
-/* contact form*/
-.form-wrapper {
-	margin: 50px;
-
-}
-
-
-
 
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
@@ -218,6 +63,8 @@ body { width: 100%;}
 ******************************************************/
 
 
+
+
 /**
 Global Styles
  */
@@ -228,3 +75,119 @@ body {
 section {
 	padding: 2.75rem 0;
 }
+
+/**
+Header
+ */
+header {
+	background-color: #333333;
+	color: #00ff00;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+/**
+welcome styles
+ */
+img[alt="welcome to my homepage"]{
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper{
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+.instructions-content{
+	flex: 1;
+	padding:2rem ;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+/**
+about me section/picard
+ */
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/**
+skills section
+ */
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	background-color: #333333;
+	padding: 10px;
+}
+
+/**
+contact form
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
