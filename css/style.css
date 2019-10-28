@@ -161,19 +161,39 @@ section:nth-child(4) table th {
 contact form
  */
 
+div.sfooter-content section:last-child {
+	background-color: #333333;
+}
 
+.form-wrapper{
+	background-color: darkgreen;
+	color: lime;
+	padding: 20px;
+}
 
+label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
 
+input, textarea {
+	width: 30%;
+	padding: 8px;
+}
 
+button {
+	background-color: lime;
+	font-weight: bold;
+	border: none;
+	paddin: 10px 30px;
+	font-size: 1rem;
+}
 
-
-
-
-
-
-
-
-
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
 
 
 
